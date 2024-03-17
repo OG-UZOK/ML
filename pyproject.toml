@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ml"
+version = "0.1.0"
+description = "Мой проект представляет собой инструмент для анализа данных пассажиров космических кораблей. Он включает в себя обучение моделей машинного обучения для прогнозирования транспортировки пассажиров на основе различных характеристик. Проект разрабатывается в рамках курса по анализу данных"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.1"
+numpy = "^1.26.4"
+catboost = "^1.2.3"
+scikit-learn = "^1.4.1.post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
